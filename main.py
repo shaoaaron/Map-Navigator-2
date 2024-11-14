@@ -1,5 +1,8 @@
 from grid import Grid
 from robot import Robot
+import random
+
+map = Grid(20,20)
 
 
 

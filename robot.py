@@ -6,8 +6,6 @@ class Robot:
         self.x = x
         self.y = y
 
-        self.grid.clean_cell(x, y)
-
     def move(self, dx, dy):
         """Move the robot by (dx, dy) if within grid bounds."""
         new_x, new_y = self.x + dx, self.y + dy
